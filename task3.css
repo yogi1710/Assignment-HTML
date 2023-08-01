@@ -1,0 +1,46 @@
+.parent{
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 13%;
+}
+
+img{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    left: 67%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#p1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 15px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(234, 5, 5);
+    border: 2px dotted black;
+    border-radius: 7px;
+    padding: 5px;
+    background: lightpink;
+}
+
+#p2{
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    width: 200px;
+    height: 100px;
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background: lightseagreen;
+}
