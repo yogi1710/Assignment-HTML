@@ -1,0 +1,138 @@
+<!-- HTML is backbone structure of the browser,they are responsible for the structure and layout of the browser -->
+<!-- We use tags to write the structure of the browser <> </>-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Head content is written here -->
+        <!-- meta data(These tags are written using meta tag- <meta>) and title tag(title of the browser) -->
+        <title>Welcome to HTML</title>
+        <!-- Some things related to styling either our style tag and also links-->
+    </head>
+
+    <body>
+        <!-- Body of the html tags are placed in the body -->
+        <!-- Hearder tags- h1 to h6 are available -->
+        <!-- Here different headers produce differernt sizes,from big(h1) to small(h6)-->
+        <h1>Hii,Welcome to HTML</h1>
+        <h2>Hii,Welcome to HTML</h2>
+        <h3>Hii,Welcome to HTML</h3>
+        <h4>Hii,Welcome to HTML</h4>
+        <h5>Hii,Welcome to HTML</h5>
+        <h6>Hii,Welcome to HTML</h6>
+
+        <!-- Paragraph tags -->
+        <!-- <p>lorem</p> it produces the paragraph by default by using 'lorem' within the paragraph tag -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi qui quam neque doloremque repellat nesciunt repellendus unde corrupti recusandae pariatur! Earum est incidunt libero eum sunt laboriosam! Molestiae, dolore repudiandae?</p>
+
+        <!-- lists - Ordered and unOrdered lists -->
+        <!-- Ordered list -we use ol tags -->
+        <ol>
+            <li>Hii</li>
+            <li>Hii</li>
+            <li>Hii</li>
+        </ol>
+
+        <!-- unordered list - we use ul tag -->
+        <ul>
+            <li>Unordered list</li>
+            <li>Unordered list</li>
+            <li>Unordered list</li>
+            <li>Unordered list</li>
+        </ul>
+
+        <!-- Input tag - don't have the closing tag for input tag -->
+        <input type = "text" placeholder="What is your name?"><br><br>
+        <!-- Placeholder is used to display the content what ever we want to display on the input box -->
+        <!-- Increment and decrement is available to increment and decrement the values -->
+        <input type = "number" placeholder="What is your age?"><br><br>
+        <input type = "email" placeholder="Example emailid@abc.com"><br><br>
+        <input type = "password" placeholder="Write your password"><br><br>
+        <!-- content is not visible when we use password placeholder -->
+
+        <!-- radio button -->
+        <!-- These radio buttons are used to generate the options that are similar to multiple choose - only one option is selected by using the label tag,inside the label tag we should use the input tag -->
+        <!-- We use 'for attribute' to know which attribute the lable tag is specifing -->
+        <!-- label tages are also necessary -->
+        <!-- labels are always used with input type -->
+        <label for = "">Choose any subject option from below : </label><br><br>
+        <label for = "name">
+            <input type = "radio" name = "Subject" id = "name1">
+            Science
+        </label>
+        <label for = "name">
+            <input type = "radio" name = "Subject" id = "name2">
+            arts
+        </label>
+        <br><br>
+
+        <!-- Create a option where user can select nationality 3 options india,USA,UK -->
+        <label for=""> Choose your nationality from the below options</label><br><br>
+        <label for = "nation">
+            <input type = "radio" name ="nationality" id = "nation1">
+            India
+        </label>
+        <label for = "nation">
+            <input type="radio" name="nationality" id = "nation2">
+            USA
+        </label>
+        <label for = "nation">
+            <input type="radio" name="nationality" id="nation3">
+            UK
+        </label>
+
+        <!-- select and option -->
+        <!-- drop down and select the option -->
+        <!-- Name and value attribute are useful to take values using javascript -->
+        <h2>Select : </h2>
+        <label>Select your country</label>
+        <select name="country">
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br><br>
+        <b>Text is printed in bold</b><br>
+        <i>Italic text is shown</i>
+        <!-- Horizontal line or ruler is printed by using the hr tag -->
+        <hr>
+        <big>the text is big</big>
+        <hr>
+        <small>small text is shown</small>
+        <hr>
+        <u>Underline</u>
+
+        <br>
+        <img src="hari.jpg" alt="konda pic" height="100px" width="100px">
+        <hr>
+        <a href="https://www.google.com/">Google</a>
+        <br>
+        <a href="https://www.google.com/">😀</a>
+        <!-- subscript and super script -->
+        <hr>
+        <p>H<sub>2</sub>O</p>
+        <p>X<sup>3</sup>+ 2X<sup>2</sup></p>
+
+        <!-- pre tag :  -->
+        <!-- by using the p tag w get the paragraph .and that paragraph can't be modified ,i.e we can't give spaces how many we want.it defaultly takes a single space -->
+        <!-- to overcome this we use the pre tag ,which is useful to give the spaces according to the user convinience -->
+
+        <p>Lorem                   ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellat, aut? 
+            Quibusdam nesciunt adipisci sit distinctio vero,
+             quia fuga vitae incidunt blanditiis dolores impedit 
+             expedita voluptatum quis veniam modi laboriosam commodi.
+        </p>
+        <!-- the above results the paragraph in a single line,even though we divided the paragraph into 4 lines and gave the spaces it will not follow the user  -->
+        <hr>
+        <pre>Lorem                   ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellat, aut? 
+            Quibusdam nesciunt adipisci sit distinctio vero,
+             quia fuga vitae incidunt blanditiis dolores impedit 
+             expedita voluptatum quis veniam modi laboriosam commodi.
+        </pre>
+        <!-- by using the pre tag we can divide the paragraph as ue required -->
+    </body>
+</html>

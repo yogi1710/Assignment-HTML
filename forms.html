@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms page</title>
+</head>
+<body>
+    <form method="get" action="/submit">
+        <label>
+            Enter UserId:
+        </label>
+        <input type="email" id="UserName">
+        <br><br>
+        <label>
+            Enter your password:
+        </label>
+        <input type="password" id="Password">
+        <br><br>
+        <input type="submit" value="Login">
+        <br><br>
+        <input type="radio" id="Male" name = "gender">Male
+        <input type="radio" id="Female" name = "gender">Female
+        <br><br>
+        <input type="checkbox" id="subscribe">
+        <label>
+            Click to subscribe
+        </label>
+        <br><br>
+        <textarea id="message" cols="50" rows="4">
+            Type Here
+        </textarea>
+        <br><br>
+        <h4>Select the country</h4>
+        <select id="country">
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+    </form>
+</body>
+</html>

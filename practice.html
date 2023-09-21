@@ -1,0 +1,80 @@
+<!-- Create a new html file 
+create a webpage with heading as your name's portfolio : yogi's portfolio 
+header to give details of your education ,accoomplishments, internships.
+header,p,li,ul,ol
+
+create input box for contact ,email,query;
+
+options : what query : subject, education,internships;
+using radio button.
+
+select and option tag, to make options where user can select gender.
+
+-->
+
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Yogi's portfolio</title>
+    </head>
+
+    <body>
+        <h1>Welcome to my portfolio</h1>
+        <div style="background-color: lightblue;border: 1px solid red;">
+            <h2 style="color: blue;">About my Education : </h2>
+            <ol>
+                <li>I am currntly pursuing my B-Tech in RGMCET in CSEDS</li>
+                <li>Completed my Inter in Sri Chaitanya in Vijayawada</li>
+                <li>Done my schooling in Montisorri in Kurnool</li>
+            </ol>
+        </div><br>
+
+        <div style="background-color: antiquewhite;border: 1px solid blue;">
+            <h2 style="color: blueviolet;">About my accoomplishments : </h2>
+            <ul>
+                <li>Sports</li>
+                <li>Five star in Hackerrank in python</li>
+                <li>Five star in Hackerrank in java</li>
+            </ul>
+        </div><br>
+
+        <div style="background-color: azure;border: 1px solid green;">
+            <h2 style="color: crimson;">About my internships : </h2>
+            <ul>
+                <li>Cyber Security Internship in AICTE</li>
+                <li>Robotics Internship in AICTE</li>
+                <li>Currrnly working as a intern in CodSoft</li>
+            </ul>
+        </div><br>
+
+
+        <input type="number" placeholder="Enter your contact">
+        <input type="email" placeholder="Enter your Email">
+        <input type="text" placeholder="Enter query if any?"><br><br>
+
+
+        <label for=""> Choose the query</label><br><br>
+        <label for = "query">
+            <input type = "radio" name ="subject" id = "sub">
+            subject
+        </label>
+        <label for = "query">
+            <input type="radio" name="educatoin" id = "edu">
+            Education
+        </label>
+        <label for = "query">
+            <input type="radio" name="intern" id="Internship">
+            Internships
+        </label>
+        <br><br>
+
+        <label>Select your Gender</label>
+        <select name="gender">
+            <option value="choose">choose</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        </div>
+    </body>
+</html>

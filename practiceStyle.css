@@ -1,0 +1,65 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+     margin: 0;
+     padding: 0;
+  }
+
+  
+.Education{
+    background-color: lightblue;
+    margin-bottom: 2px;
+    height: 100px;
+    width: 350px;
+    padding: 25px;
+}
+
+.accoomplishments{
+    background-color: lightcoral;
+    margin-top: 2px;
+    height: 120px;
+    width: 350px;
+    padding: 25px;
+}
+
+.intern{
+    background-color: lightgreen;
+    margin-top: 2px;
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+}
+
+.gender{
+    background-color: lightpink;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child{
+    display: flex;
+    height: 300px;
+}
+.child1{
+    height: 300px;
+    width: 20%;
+    background-color: lightsteelblue;
+}
+
+.child2{
+    height: 300px;
+    width: 80%;
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
